@@ -15,7 +15,18 @@ using System.Text;
  */
 public abstract class LoggerBase : ILogger {
 
+    protected bool tracing = true;
+    protected bool msging = true;
+        
 
+    public void enableTrace(bool enable)
+    {
+        this.tracing = enable;
+    }
+    public void enableMsg(bool enable)
+    {
+        this.msging = enable;
+    }
     public abstract void enter();
     public abstract void enter(object p1);
     public abstract void enter(object p1, object p2);

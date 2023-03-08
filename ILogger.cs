@@ -11,7 +11,8 @@ using System.Reflection;
 public interface ILogger : IDisposable 
 {
 
-
+	public void enableTrace(bool enable);
+	public void enableMsg(bool enable);
 
 	public void enter();
 	public void enter(object p1);
