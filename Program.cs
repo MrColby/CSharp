@@ -26,6 +26,9 @@ public class Program
             var lambdas = new Lambdas();
             lambdas.driveFunction();
 
+            var events = new Events();
+            events.driveFunction();
+
             logger.exit();
         }
     }
