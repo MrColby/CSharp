@@ -23,6 +23,9 @@ public class Program
             var delegates = new Delegates();
             delegates.driveFunction();
 
+            var lambdas = new Lambdas();
+            lambdas.driveFunction();
+
             logger.exit();
         }
     }
