@@ -92,7 +92,11 @@ public class VideoEncoder
         LoggerBase.INSTANCE.enter(video);
 
         Console.WriteLine("Encoding . . .");
-        Thread.Sleep(3000);
+        for (var i=0; i < 10; i++)
+        {
+            Thread.Sleep(100);
+            Console.Write(" . ");
+        }
         OnVideoEncoded(video);
         LoggerBase.INSTANCE.exit();
     }

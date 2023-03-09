@@ -32,6 +32,9 @@ public class Program
             var extensionMethods = new ExtensionMethods();
             extensionMethods.driveFunction();
 
+            var linq = new Linq();
+            linq.driveFunction();
+
             logger.exit();
         }
     }
