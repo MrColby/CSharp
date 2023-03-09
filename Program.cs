@@ -29,6 +29,9 @@ public class Program
             var events = new Events();
             events.driveFunction();
 
+            var extensionMethods = new ExtensionMethods();
+            extensionMethods.driveFunction();
+
             logger.exit();
         }
     }
