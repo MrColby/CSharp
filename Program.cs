@@ -35,6 +35,9 @@ public class Program
             var linq = new Linq();
             linq.driveFunction();
 
+            var nullables = new Nullables();
+            nullables.driveFunction();
+
             logger.exit();
         }
     }
