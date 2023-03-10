@@ -40,7 +40,7 @@ public class Exceptions : IFunctionDriver {
         catch (DivideByZeroException ex)
         {
             LoggerBase.INSTANCE.msg("Divide by 0");
-            throw new LoganException("Ha ha", ex);
+            //throw new LoganException("Ha ha", ex);
         }
         catch (ArithmeticException ex)
         {
