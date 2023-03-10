@@ -8,9 +8,7 @@ using System.Reflection;
 
 
 /**
- * https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/
- * https://www.tutorialsteacher.com/csharp/csharp-func-delegate
- * Delegates are function pointers! 
+ * 
 */
 public class Events : IFunctionDriver {
 
