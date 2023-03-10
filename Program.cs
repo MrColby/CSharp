@@ -38,6 +38,15 @@ public class Program
             var nullables = new Nullables();
             nullables.driveFunction();
 
+            var dynamics = new Dynamics();
+            dynamics.driveFunction();
+
+            var excepts= new Exceptions();
+            excepts.driveFunction();
+
+            var asynch = new Async();
+            asynch.driveFunction();
+
             logger.exit();
         }
     }
